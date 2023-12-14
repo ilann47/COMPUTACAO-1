@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio15</title>
+</head>
+
+<body>
+    <script>
+        function ePrimo(numero) {
+            if (numero <= 1) {
+                return false;
+            }
+
+            for (let i = 2; i < numero; i++) {
+                if (numero % i === 0) {
+                    return false;
+                }
+            }
+
+            return true;
+        }
+
+
+        console.log(ePrimo(7));
+        console.log(ePrimo(12));
+        console.log(ePrimo(2));
+        console.log(ePrimo(1));
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+Fazer uma página web em HTML, usando CSS e JavaScript.
+
+
+
+Que deve conter um formulário com os seguintes campos.
+
+
+
+1) Nome, Endereço, Celular, e-mail, altura e peso.
+
+2) Deve haver validação dos campos Celular e e-mail por meio de expressão 
+
+regular cujas máscaras serão xx-xxxxx-xxxx e nome@nome.com
+
+3) Caso não atenda a expressão deve gerar um alert de erro.
+
+4) Deve calcular o IMC e dar saída no console.log (saída no console)
+
+5) Deve gerar um json dos campos Nome, Endereço, Celular, e-mail, altura e peso, 
+
+e IMC e aparecer na página após o clicar no botão "json".
+
+Valor 0,5 ponto extra
+
+Deve ser apresentado ao professor.

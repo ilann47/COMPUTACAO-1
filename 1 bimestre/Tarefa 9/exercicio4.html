@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio4</title>
+</head>
+
+<body>
+    <script>
+        function numeroAleatorio(maximo) {
+
+            const numero = Math.random();
+
+
+            const numeroNoIntervalo = numero * maximo;
+
+
+            const numeroInteiro = Math.floor(numeroNoIntervalo);
+
+            return numeroInteiro;
+        }
+
+
+        const maximo = 100;
+        const numeroRandomico = numeroAleatorio(maximo);
+
+        console.log(`Número aleatório entre 0 e ${maximo}: ${numeroRandomico}`);
+
+    </script>
+</body>
+
+</html>

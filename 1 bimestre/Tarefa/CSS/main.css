@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.section {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: #460847;
+    height: 60px;
+}
+
+main {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+
+}
+
+
+.logo {
+    color: aliceblue;
+    position: absolute;
+    top: -5px;
+    left: 380px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.Acessos ul li {
+    list-style: none;
+}
+
+.Acessos {
+    display: inline-block;
+}
+
+.menu li a:hover {
+    color: black
+}
+
+.menu li a {
+    display: flex;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu {
+    width: 40%;
+    float: left;
+    text-decoration-line: none;
+}
+
+.busca {
+    width: 60%;
+    float: right;
+}
+
+.busca input {
+    background-image: url('../img/icone-search.png');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: right;
+    background-position: 95%;
+    width: 165px;
+    height: 36px;
+    margin-top: -55555px;
+}
+
+.HelloWorld {
+    float: right;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 32%;
+    position: absolute;
+}
+
+.imagemTcp {
+    float: right;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 41%;
+    position: absolute;
+}
+
+.textoTcp {
+    float: right;
+    text-align: left;
+    margin-top: 25%;
+    margin-left: auto;
+}

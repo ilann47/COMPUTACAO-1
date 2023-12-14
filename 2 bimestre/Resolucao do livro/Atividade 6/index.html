@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="./main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Atividade 6</title>
+    <style></style>
+</head>
+
+<body>
+    <h1>Preencha o formulario porra</h1><br>
+    <div class="Formulario">
+
+        <form id="Formulario">
+            <label horizontal for="Nome">Nome:</label>
+            <input type="text" name="Nome" id="Nome" placeholder="Seu nome aqui caximbo"><br>
+
+            <label for="Endereco">Endereco:</label>
+            <input type="text" name="Endereco" id="Endereco" placeholder="casa do caraio"><br>
+
+            <label for="Celular">Celular: (apenas numeros)</label>
+            <input class="celularError" type="tel" name="Celular" id="Celular" onchange="validateFields()"
+                placeholder=" xx-xxxxx-xxxx "><br>
+
+            <div class="Error" id="celular-required-error">Celular e invalido</div>
+            <label for="Email">Email:</label>
+            <input class="emailError" type="email" name="Email" id="Email" onchange="validateFields()"
+                placeholder="nome@nome.xxx"><br>
+
+            <div class="Error" id="email-required-error">Email e invalido</div>
+            <label for="Altura">Altura:</label>
+            <input type="number" name="Altura" id="Altura" placeholder="rapaz isso aqui e grande"><br>
+
+            <label for="Peso">Peso:</label>
+            <input type="number" name="Peso" id="Peso" placeholder="Baleia?"><br>
+
+
+
+
+
+            <button type="button" id="recover-button" disabled="true" onclick="gerarJson()">Gerar JSON</button>
+            <div id="informacoesObjeto"></div>
+
+        </form>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

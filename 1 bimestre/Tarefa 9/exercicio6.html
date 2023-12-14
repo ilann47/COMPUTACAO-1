@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio6</title>
+</head>
+
+<body>
+    <script>
+        function detectarTipoDeDado(valor) {
+            if (typeof valor === "number") {
+                return "O valor é um número.";
+            } else if (typeof valor === "boolean") {
+                return "O valor é um booleano.";
+            } else if (typeof valor === "string") {
+                return "O valor é uma string.";
+            } else {
+                return "Tipo de dado não reconhecido.";
+            }
+        }
+
+
+        console.log(detectarTipoDeDado(42));
+        console.log(detectarTipoDeDado(true));
+        console.log(detectarTipoDeDado("Olá, mundo"));
+        console.log(detectarTipoDeDado(null));
+
+    </script>
+</body>
+
+</html>
